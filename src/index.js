@@ -13,4 +13,3 @@ app.listen(serverConfig.PORT,async ()=>{
     await connectDB();
     console.log(`server started at port ${serverConfig.PORT}`)
 })
-
